@@ -1,0 +1,48 @@
+package com.goIt.homeWork7;
+
+import com.goIt.homeWork7.Figure.*;
+
+public class FigureNameOutput {
+
+
+    public static void main(String[] args) {
+        Shape f1 = new Circle();
+        Shape q1 = new Circle();
+        f1.getName();
+        q1.parameter();
+
+
+        System.out.println("---------------");
+
+        Shape f2 = new Diagonal();
+        Shape q2 = new Diagonal();
+        f2.getName();
+        q2.parameter();
+
+        System.out.println("---------------");
+
+        Shape f3 = new Line();
+        Shape q3 = new Line();
+        f3.getName();
+        q3.parameter();
+
+
+        System.out.println("---------------");
+
+        Shape f4 = new Quad();
+        Shape q4 = new Quad();
+        f4.getName();
+        q4.parameter();
+
+        System.out.println("---------------");
+
+        Shape f5 = new Triangle();
+        Shape q5 = new Triangle();
+        f5.getName();
+        q5.parameter();
+
+
+    }
+
+
+}
